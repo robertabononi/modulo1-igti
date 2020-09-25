@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <title>"Calculadora" de Cores</title>
+
+</head>
+
+<body>
+
+  <h1>RGB</h1>
+
+  <div class="red">
+
+    <h3>(R) Red</h3>
+    
+    <input
+      type="range"
+      class="rangeRed"
+      id="rangeRed"
+      name="rangeRed"
+      min="0"
+      max="255"
+      step="1"
+      value="0"
+      onchange="changeValueRed()"
+    >
+    <input
+      type="text"
+      class="textRed"
+      id="textRed"
+      name="textRed"
+      value="0"
+      readonly
+      disabled
+    >
+  </div>
+
+  <div class="green">
+
+    <h3>(G) Green</h3>
+
+    <input
+      type="range"
+      id="rangeGreen"
+      name="green"
+      min="0"
+      max="255"
+      step="1"
+      value="0"
+    >
+    <input
+      type="text"
+      id="textGreen"
+      name="textGreen"
+      value="0"
+      readonly
+      disabled
+    >
+  </div>
+
+  <div class="blue">
+
+    <h3>(B) Blue</h3>
+
+    <input
+      type="range"
+      id="rangeBlue"
+      name="blue"
+      min="0"
+      max="255"
+      step="1"
+      value="0"
+    >
+    <input
+      type="text"
+      id="textBlue"
+      name="textBlue"
+      value="0"
+      readonly
+      disabled
+    >
+  </div>
+
+  <div id="rgbColor"></div>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+  background: #dbdbdb;
+  align-items: center;
+}
+
+#rgbColor {
+  width: 80px;
+  height: 80px;
+  margin-left: 150px;
+  border: 1px solid #ddd;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.slider-wrapper {
+  display: flex;
+  width: 20px;
+  height: 150px;
+  padding: 0;
+}
+
+.slider-wrapper input {
+  width: 150px;
+  height: 20px;
+  margin: 0;
+  transform-origin: 75px 75px;
+  transform: rotate(-90deg);
+}
