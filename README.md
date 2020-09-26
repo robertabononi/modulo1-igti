@@ -17,5 +17,21 @@ uma <div> quadrada.
 visualização do valor atual de cada input do tipo range.
 4. À medida em que o usuário modifica o valor dos ranges com as teclas ← e → do
 teclado, a <div> deve refletir a cor correspondente.
-5. A imagem abaixo ilustra uma possível interface para a aplicação."
+5. A imagem abaixo ilustra uma possível interface para a aplicação.
 
+![](images/exercise.jpeg)
+
+
+O objetivo deste trabalho foi exercitar os seguintes conceitos trabalhados no módulo:
+
+- Utilização de elementos HTML.
+- Utilização de CSS.
+- Utilização de identificadores em elementos HTML.
+- Captura de referência de elementos com JavaScript.
+- Manipulação de eventos com JavaScript.
+- Utilização de funções com JavaScript e CSS.
+- Manipulação direta de CSS com JavaScript"
+
+Este é o resultado do meu trabalho:
+
+![](images/my-project.jpeg)
