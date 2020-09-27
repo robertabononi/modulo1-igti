@@ -2,6 +2,8 @@
 
 Este projeto foi o trabalho prático solicitado no Módulo 1 do Bootcamp Online - Desenvolvedor Full Stack.
 
+Link para acessar o projeto: https://robertabononi.github.io/rgb-igti/
+
 Enunciado do projeto:
 
 "Construa, utilizando HTML, CSS e JavaScript puro, uma aplicação para a visualização de cores a partir da escala RGB.
